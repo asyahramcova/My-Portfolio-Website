@@ -95,6 +95,7 @@ header .navbar ul li a:hover {
    font-size: 1.9rem;;
    text-decoration: none;
    border-radius: 2rem;
+   border: 2px solid var(--blue);
    padding: 0 2rem  ;
    background-color: rgb(255, 255, 255, .5);
 }
