@@ -298,8 +298,8 @@ header #burger-menu {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-  margin:auto;
-  margin-top: 5rem;
+   margin:auto;
+   margin-top: 5rem;
 }
 
 .item-container {
@@ -489,5 +489,12 @@ footer {
 
    .menu {
       min-height: 70vh;
+   }
+   #about {
+      margin-top: 1rem;
+   }
+
+   .container{
+      margin-top: 1rem;
    }
 }
