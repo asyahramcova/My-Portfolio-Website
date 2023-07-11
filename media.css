@@ -1,0 +1,57 @@
+/* media queries  */
+
+@media all and (max-width:991px) {
+
+   html {
+      font-size: 14px;
+   }
+
+      .about-text {
+         margin: 0;
+         gap: 1rem;
+      }
+   .skils-list{
+   flex-direction: column;
+   }
+}
+
+@media all and (max-width:768px) {
+
+   html {
+         font-size: 12px;
+      }
+
+   header #burger-menu {
+      display: block;
+   }
+
+   header .navbar {
+      position: fixed;
+      opacity: 0;
+   }
+
+
+
+}
+
+@media all and (max-width:500px) {
+
+   html {
+      font-size: 12px;
+   }
+
+   section {
+      padding: 1rem 5%;
+      padding-top: 2rem;
+   }
+
+   #burger-menu span {
+      right: -20px;
+      top: 13px;
+      width: 30px;
+   }
+
+   .menu {
+      min-height: 70vh;
+   }
+}
