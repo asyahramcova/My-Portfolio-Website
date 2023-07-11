@@ -238,7 +238,7 @@ header #burger-menu {
    max-height: 60vh;
    max-width: 40%;
    margin: 0 0 2% 2%;
-   background-color: rgb(211, 175, 170, .1);
+   background-color: rgb(255, 194, 194, .2);
    box-shadow: -11px 16px 23px -5px rgba(34, 60, 80, 0.16);
    border-radius: 2rem;
 }
