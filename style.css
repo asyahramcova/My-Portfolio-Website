@@ -466,7 +466,7 @@ header .navbar ul li a {
 
 }
 
-@media all and (max-width:500px) {
+@media all and (max-width:540px) {
 
    html {
       font-size:60%;
