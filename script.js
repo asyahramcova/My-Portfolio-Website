@@ -72,6 +72,18 @@ gsap.to('#contact-btn',{
     opacity: 0,
 })
 
+gsap.to('#contact-icon',{
+    scrollTrigger:{
+    trigger:'footer',
+    start: 'bottom bottom ',
+    scrub: true
+    },
+    css:{
+        color: '#749BC2',
+    }
+})
+
+
 /* JS */
 let burgerMenu = document.querySelector("#burger-menu");
 let overlay = document.querySelector("#menu");
