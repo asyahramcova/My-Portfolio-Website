@@ -34,40 +34,43 @@
 
       <div id="menu">
          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#skills"> Skills</a></li>
-            <li><a href="#contact-me">Contact</a></li>
+            <li class="menu-links"><a href="#about">About</a></li>
+            <li class="menu-links"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-links"><a href="#skills"> Skills</a></li>
+            <li class="menu-links"><a href="#contact-me">Contact</a></li>
          </ul>
       </div>
 
       <nav class="navbar">
          <ul>
-            <li><a href="#about" class="active">ABOUT</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#contact-me">CONTACT</a></li>
+            <li class="navbar-links"><a href="#about" >ABOUT</a></li>
+            <li class="navbar-links"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="navbar-links"><a href="#skills">SKILLS</a></li>
+            <li class="navbar-links"><a href="#contact-me">CONTACT</a></li>
          </ul>
       </nav>
    </header>
 
 <!-- About-->
+<main>
+
+      <button type="submit" id="contact-btn"><a href="#contact-me">Contact me</a></button>
 
 <section id="about">
    <div id="about-container">
-      <div class="photo" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+      <div class="photo" >
          <img  id="myPhoto"  src="photo.jpg"  alt="My photo" >
       </div>
       <div class="about-text">
          <div>
-            <h2 class="textOne" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+            <h1 class="textOne" >
                My name is 
-            </h2>
+            </h1>
          </div>
          <div>
-            <h1 class="textTwo" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
-           ANASTASIA KHRAMTSOVA
-               <h2>
+            <h2 class="textTwo" >
+            ANASTASIA KHRAMTSOVA
+            <h2>
          </div>
       </div>
    </div>
@@ -78,7 +81,7 @@
 
    <section id="skills" >
       <div>
-         <h3 class="section-title" >SKILLS & COMPETENCIES</h3>
+         <h3 class="section-title" id="mySkills-title" >SKILLS & COMPETENCIES</h3>
       </div>
       <div class="myskills">
          <div class="skils-text">
@@ -106,13 +109,13 @@
 
 <section class="container" id="portfolio">
 
-   <div class="section-title">
-      <h3 data-aos="flip-left" class="section-title">MY PROJECTS</h3>
+   <div class="section-title" id="portfolio-title">
+      <h3 >MY PROJECTS</h3>
    </div>
 
    <div class="item-container">
 
-      <div class="card " data-aos="fade-left">
+      <div class="card " data-aos="fade-right">
          <div class="image">
             <img src="https://cdn.glitch.global/a2420343-ef00-4624-adce-7acb34d775e0/Landing%20Page.jpg?v=1688757320790"
                alt="">
@@ -126,7 +129,7 @@
          </div>
       </div>
 
-      <div class="card" data-aos="fade-right">
+      <div class="card" data-aos="fade-left" >
          <div class="image">
             <img src="https://cdn.glitch.global/9797902d-4530-4971-9ace-f4ac3e718a7c/trip.jpg?v=1671629736923"
                alt="To do app">
@@ -140,7 +143,7 @@
          </div>
       </div>
 
-      <div class="card " data-aos="fade-left">
+      <div class="card " data-aos="fade-right" >
          <div class="image">
             <img src="https://cdn.glitch.global/edb63794-e772-4635-83ba-34ba42b9a8c7/1.png?v=1669184196669" alt="">
          </div>
@@ -153,7 +156,7 @@
          </div>
       </div>
 
-      <div class="card " data-aos="fade-right">
+      <div class="card " data-aos="fade-left" >
          <div class="image">
             <img src="https://cdn.glitch.global/edb63794-e772-4635-83ba-34ba42b9a8c7/meteo.png?v=1669269518034"
                alt="Relax App">
@@ -167,7 +170,7 @@
          </div>
       </div>
 
-      <div class="card " data-aos="fade-left">
+      <div class="card " data-aos="fade-right" >
          <div class="image">
             <img src="https://cdn.glitch.global/9797902d-4530-4971-9ace-f4ac3e718a7c/meteo.jpg?v=1671568413395"
                alt="Weather App">
@@ -181,7 +184,7 @@
          </div>
       </div>
 
-      <div class="card" data-aos="fade-right">
+      <div class="card" data-aos="fade-left" >
          <div class="image">
             <img src="https://cdn.glitch.global/a2420343-ef00-4624-adce-7acb34d775e0/image%2018.jpg?v=1688757639045"
                alt="To do app">
@@ -196,7 +199,7 @@
       </div>
 
  
-      <div class="card" data-aos="fade-right">
+      <div class="card" data-aos="fade-right" >
          <div class="image">
             <img src="https://cdn.glitch.global/a2420343-ef00-4624-adce-7acb34d775e0/111.jpg?v=1688758304368"
                alt="To do app">
@@ -209,9 +212,6 @@
             <a href="https://polite-puffpuff-ccf1f8.netlify.app/" target="_blank">view</a>
          </div>
       </div>
-      
-     
-
    </div>
 </section>
 
@@ -228,8 +228,10 @@
 
 </section>
 
+</main>
+
 <!--Footer-->
-   <footer class="footer" id="footer">
+   <footer id="footer">
       <div class="materials">
          <p>Photos and videos for projects were taken from:www.pexels.com, www.unslpash.com, www.freepik.com</p>
          <p>All materials was taken from open sources for educational proposes.</p>
@@ -242,10 +244,11 @@
       </div>
    </footer>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script> 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
    <script src="script.js"></script>
 </body>
 
